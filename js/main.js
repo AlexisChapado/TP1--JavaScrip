@@ -14,14 +14,6 @@ function calcular () {
 
     let costoInicial = 4000; 
 
-
-    // AJuste del seguro segun la edad
-
-    if (EDAD < 25){
-        costoInicial += 3000;
-    } else if (EDAD > 60 ){
-        costoInicial += 8000;
-    }
         
 
     // Ajuste por el valor de Vehiculo
